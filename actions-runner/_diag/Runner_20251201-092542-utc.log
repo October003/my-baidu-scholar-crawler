@@ -123,3 +123,16 @@
 [2025-12-01 09:25:42Z INFO RunnerServer] EstablishVssConnection
 [2025-12-01 09:25:42Z INFO RunnerServer] Establish connection with 60 seconds timeout.
 [2025-12-01 09:25:42Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-12-01 09:25:44Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-12-01 09:25:44Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-12-01 09:25:44Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-12-01 09:25:44Z INFO BrokerMessageListener] VssConnection created
+[2025-12-01 09:25:44Z INFO Terminal] WRITE LINE: 
+[2025-12-01 09:25:44Z INFO Terminal] WRITE LINE: 
+[2025-12-01 09:25:44Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\.credentials_rsaparams
+[2025-12-01 09:25:44Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\.credentials_rsaparams
+[2025-12-01 09:25:45Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-12-01 09:25:46Z INFO BrokerMessageListener] Session created.
+[2025-12-01 09:25:46Z INFO Terminal] WRITE LINE: Current runner version: '2.329.0'
+[2025-12-01 09:25:46Z INFO Terminal] WRITE LINE: 2025-12-01 09:25:46Z: Listening for Jobs
+[2025-12-01 09:25:46Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
