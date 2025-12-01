@@ -30,7 +30,8 @@ jobs:
             sleep 5
           done < keywords/keywords.txt
 
-      - uses: actions/upload-artifact@v3
+      - name: Upload batch results
+        uses: actions/upload-artifact@v4
         with:
           name: all-json
           path: outputs/
