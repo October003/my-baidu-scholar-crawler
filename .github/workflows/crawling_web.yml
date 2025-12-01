@@ -1,6 +1,7 @@
 name: crawling_web
 
 on:
+  workflow_dispatch:     # ← 必须，有它才有按钮！
   repository_dispatch:
     types: [crawling_web]
 
@@ -9,7 +10,7 @@ permissions:
 
 jobs:
   crawl:
-    runs-on: self-hosted   # ← 使用你的本地 runner，而不是 ubuntu-latest
+    runs-on: self-hosted    # ← 用你的本地 Runner，不要 ubuntu-latest
 
     steps:
       - name: Checkout repository
@@ -20,22 +21,22 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install requirements
+      - name: Install Python dependencies
         run: |
           pip install -r requirements.txt
           pip install docker
 
-      - name: Start Selenium container
+      - name: Start Selenium Chrome container
         run: |
-          docker rm -f selenium || echo "selenium not exist"
+          docker rm -f selenium || echo "No container"
           docker pull selenium/standalone-chrome:latest
           docker run -d --name selenium -p 4444:4444 --shm-size="2g" selenium/standalone-chrome:latest
-          echo "Waiting for Selenium to be ready..."
+          echo "Waiting for Selenium..."
           powershell -Command "
             for ($i=0; $i -lt 30; $i++) {
               try {
-                $status = Invoke-WebRequest -Uri http://localhost:4444/wd/hub/status -UseBasicParsing
-                if ($status.StatusCode -eq 200) { Write-Host 'Selenium ready'; break }
+                $r = Invoke-WebRequest -Uri http://localhost:4444/wd/hub/status -UseBasicParsing
+                if ($r.StatusCode -eq 200) { Write-Host 'Selenium ready'; break }
               } catch {}
               Start-Sleep -Seconds 2
             }
@@ -53,6 +54,6 @@ jobs:
           path: outputs/
           retention-days: 30
 
-      - name: Stop Selenium container
+      - name: Stop selenium
         if: always()
         run: docker rm -f selenium
