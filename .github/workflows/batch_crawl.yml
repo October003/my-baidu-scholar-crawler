@@ -1,0 +1,36 @@
+name: Batch Crawl Baidu Scholar
+
+on:
+  workflow_dispatch:
+
+jobs:
+  batch-crawl:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Read keywords and trigger crawler
+        run: |
+          while IFS= read -r keyword; do
+            if [ -z "$keyword" ]; then
+              continue
+            fi
+
+            echo "Running crawler for: $keyword"
+
+            b64=$(echo -n "$keyword" | base64)
+
+            curl -X POST \
+              -H "Accept: application/vnd.github.v3+json" \
+              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+              https://api.github.com/repos/${{ github.repository }}/dispatches \
+              -d "{\"event_type\": \"crawling_web\", \"client_payload\": {\"query\": \"$b64\"}}"
+
+            sleep 5
+          done < keywords/keywords.txt
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: all-json
+          path: outputs/
