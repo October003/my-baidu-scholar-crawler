@@ -1,6 +1,7 @@
 name: Crawl Single Keyword
 
 on:
+  workflow_dispatch:   # ← 加这一行，就能手动运行
   repository_dispatch:
     types: [crawling_web]
 
