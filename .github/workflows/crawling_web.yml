@@ -1,34 +1,58 @@
-name: Crawl Single Keyword
+name: crawling_web
 
 on:
-  workflow_dispatch:
   repository_dispatch:
     types: [crawling_web]
 
+permissions:
+  contents: write
+
 jobs:
   crawl:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted   # ← 使用你的本地 runner，而不是 ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.x'
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+      - name: Install requirements
+        run: |
+          pip install -r requirements.txt
+          pip install docker
+
+      - name: Start Selenium container
+        run: |
+          docker rm -f selenium || echo "selenium not exist"
+          docker pull selenium/standalone-chrome:latest
+          docker run -d --name selenium -p 4444:4444 --shm-size="2g" selenium/standalone-chrome:latest
+          echo "Waiting for Selenium to be ready..."
+          powershell -Command "
+            for ($i=0; $i -lt 30; $i++) {
+              try {
+                $status = Invoke-WebRequest -Uri http://localhost:4444/wd/hub/status -UseBasicParsing
+                if ($status.StatusCode -eq 200) { Write-Host 'Selenium ready'; break }
+              } catch {}
+              Start-Sleep -Seconds 2
+            }
+          "
 
       - name: Run crawler
         env:
           QUERY: ${{ github.event.client_payload.query }}
-        run: |
-          mkdir -p outputs
-          python crawling_web.py
+        run: python crawling_web.py
 
       - name: Upload output
         uses: actions/upload-artifact@v4
         with:
-          name: crawled-output
+          name: "crawled-${{ github.event.client_payload.query }}"
           path: outputs/
+          retention-days: 30
+
+      - name: Stop Selenium container
+        if: always()
+        run: docker rm -f selenium

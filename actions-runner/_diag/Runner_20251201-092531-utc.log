@@ -1,0 +1,224 @@
+[2025-12-01 09:25:31Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-12-01 09:25:31Z INFO HostContext] Well known directory 'Bin': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\bin'
+[2025-12-01 09:25:31Z INFO HostContext] Well known directory 'Root': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner'
+[2025-12-01 09:25:31Z INFO HostContext] Well known config file 'Credentials': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\.credentials'
+[2025-12-01 09:25:31Z INFO HostContext] Well known directory 'Bin': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\bin'
+[2025-12-01 09:25:31Z INFO HostContext] Well known directory 'Root': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner'
+[2025-12-01 09:25:31Z INFO HostContext] Well known config file 'Runner': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\.runner'
+[2025-12-01 09:25:31Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2025-12-01 09:25:31Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.22635.
+[2025-12-01 09:25:31Z INFO Listener] Version: 2.329.0
+[2025-12-01 09:25:31Z INFO Listener] Commit: c76c59996c8fa32e989164a5a695efb12608ae5a
+[2025-12-01 09:25:31Z INFO Listener] Culture: zh-CN
+[2025-12-01 09:25:31Z INFO Listener] UI Culture: zh-CN
+[2025-12-01 09:25:31Z INFO HostContext] Well known directory 'Bin': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\bin'
+[2025-12-01 09:25:31Z INFO HostContext] Well known directory 'Root': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner'
+[2025-12-01 09:25:31Z INFO Listener] Validating directory permissions for: 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner'
+[2025-12-01 09:25:31Z INFO CommandLineParser] Parse
+[2025-12-01 09:25:31Z INFO CommandLineParser] Parsing 5 args
+[2025-12-01 09:25:31Z INFO CommandLineParser] parsing argument
+[2025-12-01 09:25:31Z INFO CommandLineParser] HasArgs: False
+[2025-12-01 09:25:31Z INFO CommandLineParser] Adding Command: configure
+[2025-12-01 09:25:31Z INFO CommandLineParser] parsing argument
+[2025-12-01 09:25:31Z INFO CommandLineParser] HasArgs: True
+[2025-12-01 09:25:31Z INFO CommandLineParser] arg: url
+[2025-12-01 09:25:31Z INFO CommandLineParser] parsing argument
+[2025-12-01 09:25:31Z INFO CommandLineParser] HasArgs: True
+[2025-12-01 09:25:31Z INFO CommandLineParser] Adding option 'url': 'https://github.com/October003/my-baidu-scholar-crawler'
+[2025-12-01 09:25:31Z INFO CommandLineParser] parsing argument
+[2025-12-01 09:25:31Z INFO CommandLineParser] HasArgs: True
+[2025-12-01 09:25:31Z INFO CommandLineParser] arg: token
+[2025-12-01 09:25:31Z INFO CommandLineParser] parsing argument
+[2025-12-01 09:25:31Z INFO CommandLineParser] HasArgs: True
+[2025-12-01 09:25:31Z INFO CommandLineParser] Adding option 'token': '***'
+[2025-12-01 09:25:31Z INFO Listener] Arguments parsed
+[2025-12-01 09:25:31Z INFO Runner] ExecuteCommand
+[2025-12-01 09:25:31Z INFO ConfigurationStore] currentAssemblyLocation: D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\bin\Runner.Listener.dll
+[2025-12-01 09:25:31Z INFO HostContext] Well known directory 'Bin': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\bin'
+[2025-12-01 09:25:31Z INFO ConfigurationStore] binPath: D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\bin
+[2025-12-01 09:25:31Z INFO HostContext] Well known directory 'Bin': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\bin'
+[2025-12-01 09:25:31Z INFO HostContext] Well known directory 'Root': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner'
+[2025-12-01 09:25:31Z INFO ConfigurationStore] RootFolder: D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner
+[2025-12-01 09:25:31Z INFO HostContext] Well known directory 'Bin': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\bin'
+[2025-12-01 09:25:31Z INFO HostContext] Well known directory 'Root': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner'
+[2025-12-01 09:25:31Z INFO HostContext] Well known config file 'Runner': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\.runner'
+[2025-12-01 09:25:31Z INFO ConfigurationStore] ConfigFilePath: D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\.runner
+[2025-12-01 09:25:31Z INFO HostContext] Well known directory 'Bin': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\bin'
+[2025-12-01 09:25:31Z INFO HostContext] Well known directory 'Root': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner'
+[2025-12-01 09:25:31Z INFO HostContext] Well known config file 'MigratedRunner': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\.runner_migrated'
+[2025-12-01 09:25:31Z INFO ConfigurationStore] MigratedConfigFilePath: D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\.runner_migrated
+[2025-12-01 09:25:31Z INFO HostContext] Well known directory 'Bin': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\bin'
+[2025-12-01 09:25:31Z INFO HostContext] Well known directory 'Root': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner'
+[2025-12-01 09:25:31Z INFO HostContext] Well known config file 'Credentials': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\.credentials'
+[2025-12-01 09:25:31Z INFO ConfigurationStore] CredFilePath: D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\.credentials
+[2025-12-01 09:25:31Z INFO HostContext] Well known directory 'Bin': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\bin'
+[2025-12-01 09:25:31Z INFO HostContext] Well known directory 'Root': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner'
+[2025-12-01 09:25:31Z INFO HostContext] Well known config file 'MigratedCredentials': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\.credentials_migrated'
+[2025-12-01 09:25:31Z INFO ConfigurationStore] MigratedCredFilePath: D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\.credentials_migrated
+[2025-12-01 09:25:31Z INFO HostContext] Well known directory 'Bin': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\bin'
+[2025-12-01 09:25:31Z INFO HostContext] Well known directory 'Root': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner'
+[2025-12-01 09:25:31Z INFO HostContext] Well known config file 'Service': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\.service'
+[2025-12-01 09:25:31Z INFO ConfigurationStore] ServiceConfigFilePath: D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\.service
+[2025-12-01 09:25:31Z INFO CommandSettings] Flag 'help': 'False'
+[2025-12-01 09:25:31Z INFO CommandSettings] Flag 'version': 'False'
+[2025-12-01 09:25:31Z INFO CommandSettings] Flag 'commit': 'False'
+[2025-12-01 09:25:31Z INFO CommandSettings] Flag 'check': 'False'
+[2025-12-01 09:25:31Z INFO CommandSettings] Command 'configure': 'True'
+[2025-12-01 09:25:31Z INFO Terminal] WRITE LINE: 
+[2025-12-01 09:25:31Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2025-12-01 09:25:31Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2025-12-01 09:25:31Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2025-12-01 09:25:31Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2025-12-01 09:25:31Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2025-12-01 09:25:31Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2025-12-01 09:25:31Z INFO Terminal] WRITE LINE: |                                                                              |
+[2025-12-01 09:25:31Z INFO Terminal] WRITE: |                       
+[2025-12-01 09:25:31Z INFO Terminal] WRITE: Self-hosted runner registration
+[2025-12-01 09:25:31Z INFO Terminal] WRITE LINE:                         |
+[2025-12-01 09:25:31Z INFO Terminal] WRITE LINE: |                                                                              |
+[2025-12-01 09:25:31Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2025-12-01 09:25:31Z INFO ConfigurationManager] ConfigureAsync
+[2025-12-01 09:25:31Z INFO CommandSettings] Flag 'generateServiceConfig': 'False'
+[2025-12-01 09:25:31Z INFO ConfigurationStore] IsConfigured()
+[2025-12-01 09:25:31Z INFO ConfigurationStore] IsConfigured: False
+[2025-12-01 09:25:31Z INFO ConfigurationManager] Is configured: False
+[2025-12-01 09:25:31Z INFO CommandSettings] Arg 'url': 'https://github.com/October003/my-baidu-scholar-crawler'
+[2025-12-01 09:25:31Z INFO CommandSettings] Remove url from Arg dictionary.
+[2025-12-01 09:25:31Z INFO CommandSettings] Arg 'token': '***'
+[2025-12-01 09:25:31Z INFO CommandSettings] Remove token from Arg dictionary.
+[2025-12-01 09:25:32Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration' (144B:188F5A:2D08:34BD:692D5F0B)
+[2025-12-01 09:25:32Z INFO ConfigurationManager] Using runner-admin flow: False
+[2025-12-01 09:25:32Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2025-12-01 09:25:32Z INFO RunnerServer] EstablishVssConnection
+[2025-12-01 09:25:32Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2025-12-01 09:25:32Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-12-01 09:25:32Z INFO RunnerServer] EstablishVssConnection
+[2025-12-01 09:25:32Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-12-01 09:25:32Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-12-01 09:25:32Z INFO RunnerServer] EstablishVssConnection
+[2025-12-01 09:25:32Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-12-01 09:25:32Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-12-01 09:25:33Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-12-01 09:25:33Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-12-01 09:25:34Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-12-01 09:25:34Z INFO Terminal] WRITE LINE: 
+[2025-12-01 09:25:34Z INFO ConfigurationManager] Test Connection complete.
+[2025-12-01 09:25:34Z INFO HostContext] Well known directory 'Bin': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\bin'
+[2025-12-01 09:25:34Z INFO HostContext] Well known directory 'Root': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner'
+[2025-12-01 09:25:34Z INFO HostContext] Well known config file 'RSACredentials': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\.credentials_rsaparams'
+[2025-12-01 09:25:34Z INFO RSAEncryptedFileKeyManager] Creating new RSA key using 2048-bit key length
+[2025-12-01 09:25:34Z INFO RSAEncryptedFileKeyManager] Successfully saved RSA key parameters to file D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\.credentials_rsaparams
+[2025-12-01 09:25:34Z INFO CommandSettings] Arg 'runnergroup': ''
+[2025-12-01 09:25:34Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-12-01 09:25:34Z INFO PromptManager] ReadValue
+[2025-12-01 09:25:34Z INFO Terminal] WRITE: Enter the name of the runner group to add this runner to: 
+[2025-12-01 09:25:34Z INFO Terminal] WRITE: [press Enter for Default] 
+[2025-12-01 09:25:34Z INFO Terminal] READ LINE
+[2025-12-01 09:25:35Z INFO Terminal] Read value: ''
+[2025-12-01 09:25:35Z INFO PromptManager] Falling back to the default: 'Default'
+[2025-12-01 09:25:35Z INFO Terminal] WRITE LINE: 
+[2025-12-01 09:25:35Z INFO ConfigurationManager] Found a self-hosted runner group with id 1 and name Default
+[2025-12-01 09:25:35Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-12-01 09:25:35Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2025-12-01 09:25:35Z INFO CommandSettings] Arg 'name': ''
+[2025-12-01 09:25:35Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-12-01 09:25:35Z INFO PromptManager] ReadValue
+[2025-12-01 09:25:35Z INFO Terminal] WRITE: Enter the name of runner: 
+[2025-12-01 09:25:35Z INFO Terminal] WRITE: [press Enter for TOBER] 
+[2025-12-01 09:25:35Z INFO Terminal] READ LINE
+[2025-12-01 09:25:36Z INFO Terminal] Read value: ''
+[2025-12-01 09:25:36Z INFO PromptManager] Falling back to the default: 'TOBER'
+[2025-12-01 09:25:36Z INFO Terminal] WRITE LINE: 
+[2025-12-01 09:25:36Z INFO CommandSettings] Arg 'labels': ''
+[2025-12-01 09:25:36Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-12-01 09:25:36Z INFO PromptManager] ReadValue
+[2025-12-01 09:25:36Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Windows', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2025-12-01 09:25:36Z INFO Terminal] WRITE: [press Enter to skip] 
+[2025-12-01 09:25:36Z INFO Terminal] READ LINE
+[2025-12-01 09:25:36Z INFO Terminal] Read value: ''
+[2025-12-01 09:25:36Z INFO Terminal] WRITE LINE: 
+[2025-12-01 09:25:36Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-12-01 09:25:36Z INFO CommandSettings] Flag 'no-default-labels': 'False'
+[2025-12-01 09:25:36Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-12-01 09:25:36Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2025-12-01 09:25:36Z INFO ConfigurationStore] Saving OAuth credential @ D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\.credentials
+[2025-12-01 09:25:36Z INFO ConfigurationStore] Credentials Saved.
+[2025-12-01 09:25:36Z INFO ConfigurationManager] Service enforced serverUrlV2: https://broker.actions.githubusercontent.com/
+[2025-12-01 09:25:36Z INFO ConfigurationManager] Service enforced useV2Flow: True
+[2025-12-01 09:25:36Z INFO CommandSettings] Arg 'work': ''
+[2025-12-01 09:25:36Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-12-01 09:25:36Z INFO PromptManager] ReadValue
+[2025-12-01 09:25:36Z INFO Terminal] WRITE: Enter name of work folder: 
+[2025-12-01 09:25:36Z INFO Terminal] WRITE: [press Enter for _work] 
+[2025-12-01 09:25:36Z INFO Terminal] READ LINE
+[2025-12-01 09:25:36Z INFO Terminal] Read value: ''
+[2025-12-01 09:25:36Z INFO PromptManager] Falling back to the default: '_work'
+[2025-12-01 09:25:36Z INFO ConfigurationStore] Saving runner settings.
+[2025-12-01 09:25:36Z INFO ConfigurationStore] Settings Saved.
+[2025-12-01 09:25:36Z INFO Terminal] WRITE LINE: 
+[2025-12-01 09:25:36Z INFO Terminal] WRITE LINE: 
+[2025-12-01 09:25:36Z INFO CommandSettings] Flag 'runasservice': 'False'
+[2025-12-01 09:25:36Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-12-01 09:25:36Z INFO PromptManager] ReadValue
+[2025-12-01 09:25:36Z INFO Terminal] WRITE: Would you like to run the runner as service? (Y/N) 
+[2025-12-01 09:25:36Z INFO Terminal] WRITE: [press Enter for N] 
+[2025-12-01 09:25:36Z INFO Terminal] READ LINE
+[2025-12-01 09:25:38Z INFO Terminal] Read value: 'Y'
+[2025-12-01 09:25:38Z INFO ConfigurationManager] Configuring to run the agent as service
+[2025-12-01 09:25:38Z INFO CommandSettings] Arg 'windowslogonaccount': ''
+[2025-12-01 09:25:38Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-12-01 09:25:38Z INFO PromptManager] ReadValue
+[2025-12-01 09:25:38Z INFO Terminal] WRITE: User account to use for the service 
+[2025-12-01 09:25:38Z INFO Terminal] WRITE: [press Enter for NT AUTHORITY\NETWORK SERVICE] 
+[2025-12-01 09:25:38Z INFO Terminal] READ LINE
+[2025-12-01 09:25:41Z INFO Terminal] Read value: ''
+[2025-12-01 09:25:41Z INFO PromptManager] Falling back to the default: 'NT AUTHORITY\NETWORK SERVICE'
+[2025-12-01 09:25:41Z INFO WindowsServiceControlManager] LogonAccount after transforming: NT AUTHORITY\NETWORK SERVICE, user: NETWORK SERVICE, domain: NT AUTHORITY
+[2025-12-01 09:25:41Z INFO WindowsServiceControlManager] Service name 'actions.runner.October003-my-baidu-scholar-crawler.TOBER' display name 'GitHub Actions Runner (October003-my-baidu-scholar-crawler.TOBER)' will be used for service configuration.
+[2025-12-01 09:25:41Z INFO WindowsServiceControlManager] Verifying if the account has LogonAsService permission
+[2025-12-01 09:25:41Z INFO NativeWindowsServiceHelper] Successfully grant logon as service privilege to account 'NETWORK SERVICE'
+[2025-12-01 09:25:41Z INFO WindowsServiceControlManager] Create local group and grant folder permission to service logon account.
+[2025-12-01 09:25:41Z INFO HostContext] Well known directory 'Bin': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\bin'
+[2025-12-01 09:25:41Z INFO HostContext] Well known directory 'Root': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner'
+[2025-12-01 09:25:41Z INFO ConfigurationStore] Read setting file: 403 chars
+[2025-12-01 09:25:41Z INFO HostContext] Well known directory 'Bin': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\bin'
+[2025-12-01 09:25:41Z INFO HostContext] Well known directory 'Root': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner'
+[2025-12-01 09:25:41Z INFO HostContext] Well known directory 'Work': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\_work'
+[2025-12-01 09:25:41Z INFO HostContext] Well known directory 'Bin': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\bin'
+[2025-12-01 09:25:41Z INFO NativeWindowsServiceHelper] Calculated unique group name GITHUB_ActionsRunner_G9e4c6
+[2025-12-01 09:25:41Z INFO NativeWindowsServiceHelper] Trying to create group GITHUB_ActionsRunner_G9e4c6
+[2025-12-01 09:25:41Z INFO NativeWindowsServiceHelper] Local Group 'GITHUB_ActionsRunner_G9e4c6' created
+[2025-12-01 09:25:41Z INFO NativeWindowsServiceHelper] Trying to add userName NT AUTHORITY\NETWORK SERVICE to the group GITHUB_ActionsRunner_G9e4c6
+[2025-12-01 09:25:41Z INFO NativeWindowsServiceHelper] Account 'NT AUTHORITY\NETWORK SERVICE' is added to local group 'GITHUB_ActionsRunner_G9e4c6'.
+[2025-12-01 09:25:41Z INFO NativeWindowsServiceHelper] Set full access control to group for the folder D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner
+[2025-12-01 09:25:41Z INFO NativeWindowsServiceHelper] Set full access control to group for the folder D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\_work
+[2025-12-01 09:25:41Z INFO NativeWindowsServiceHelper] Local group 'GITHUB_ActionsRunner_G9e4c6' already has full control to path 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\_work'.
+[2025-12-01 09:25:41Z INFO Terminal] WRITE LINE: Granting file permissions to 'NT AUTHORITY\NETWORK SERVICE'.
+[2025-12-01 09:25:41Z INFO HostContext] Well known directory 'Bin': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\bin'
+[2025-12-01 09:25:41Z INFO ProcessInvokerWrapper] Starting process:
+[2025-12-01 09:25:41Z INFO ProcessInvokerWrapper]   File name: '"D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\bin\RunnerService.exe"'
+[2025-12-01 09:25:41Z INFO ProcessInvokerWrapper]   Arguments: 'init'
+[2025-12-01 09:25:41Z INFO ProcessInvokerWrapper]   Working directory: ''
+[2025-12-01 09:25:41Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-12-01 09:25:41Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-12-01 09:25:41Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-12-01 09:25:41Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-12-01 09:25:41Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-12-01 09:25:41Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-12-01 09:25:41Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-12-01 09:25:41Z INFO ProcessInvokerWrapper] Process started with process id 32812, waiting for process exit.
+[2025-12-01 09:25:42Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-12-01 09:25:42Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-12-01 09:25:42Z INFO ProcessInvokerWrapper] Finished process 32812 with exit code 0, and elapsed time 00:00:00.3545248.
+[2025-12-01 09:25:42Z INFO Terminal] WRITE LINE: Service actions.runner.October003-my-baidu-scholar-crawler.TOBER successfully installed
+[2025-12-01 09:25:42Z INFO Terminal] WRITE LINE: Service actions.runner.October003-my-baidu-scholar-crawler.TOBER successfully set recovery option
+[2025-12-01 09:25:42Z INFO Terminal] WRITE LINE: Service actions.runner.October003-my-baidu-scholar-crawler.TOBER successfully set to delayed auto start
+[2025-12-01 09:25:42Z INFO Terminal] WRITE LINE: Service actions.runner.October003-my-baidu-scholar-crawler.TOBER successfully configured
+[2025-12-01 09:25:42Z INFO HostContext] Well known directory 'Bin': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\bin'
+[2025-12-01 09:25:42Z INFO HostContext] Well known directory 'Root': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner'
+[2025-12-01 09:25:42Z INFO HostContext] Well known config file 'Service': 'D:\Code\PythonProjects\my-baidu-scholar-crawler\actions-runner\.service'
+[2025-12-01 09:25:42Z INFO WindowsServiceControlManager] Configuration was successful, trying to start the service
+[2025-12-01 09:25:42Z INFO Terminal] WRITE LINE: Waiting for service to start...
+[2025-12-01 09:25:42Z INFO Terminal] WRITE LINE: Service actions.runner.October003-my-baidu-scholar-crawler.TOBER started successfully
+[2025-12-01 09:25:42Z INFO Listener] Runner execution has finished with return code 0

@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 3,
+  "agentName": "TOBER",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus6.actions.githubusercontent.com/YgvlkSiYq2vxkiyXBI7V97a7E9bu98Ltl84hmCxcm2jqQbTypZ/",
+  "gitHubUrl": "https://github.com/October003/my-baidu-scholar-crawler",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}
